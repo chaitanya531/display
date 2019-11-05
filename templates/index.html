@@ -1,0 +1,31 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+        <head>
+                <meta charset="utf-8">
+                <title></title>
+                <link rel="stylesheet" href="{% static 'css/main.css' %}"/>
+              </head>
+  <body> 
+        
+<img src="static/images/images.png" alt="HTML5 Icon" style="width:256px;height:256px;">
+
+<form action="display">
+  <div class="login-box">
+  
+      <h3s >Login</h3>
+        <div class="textbox">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="Username" name="text1">
+        </div>
+      
+        <div class="textbox">
+          <i class="fas fa-lock"></i>
+          <input type="password" placeholder="Password" name="text2">
+        </div>
+      
+        <input type="submit"  value="Sign in">
+</div>
+</form>
+  </body>
+</html>
